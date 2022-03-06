@@ -1,10 +1,7 @@
-<!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="styles.css" />
     <title>Marioclub</title>
   </head>
   <body>
@@ -12,25 +9,22 @@
       <h1>Marioclub</h1>
     </header>
     <section class="banner">
-      <img src="./img/banner.png" alt="Marioclub banner" />
+      <img src="./img/banner.png" alt="marioclub welcome banner" />
       <div class="welcome">
-        <h2>
-          Welcome to <br />
-          <span>Marioclub</span>
-        </h2>
+        <h2>Welcome to <br /><span>Marioclub</span></h2>
       </div>
     </section>
     <nav class="main-nav">
       <ul>
-        <li><a href="#">Join the club</a></li>
-        <li><a href="#">Latest news</a></li>
-        <li><a href="#">New Games</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="/join.html" class="join">Join the club</a></li>
+        <li><a href="/news.html">Latest news</a></li>
+        <li><a href="/games.html">New games</a></li>
+        <li><a href="/contact.html">Contact</a></li>
       </ul>
     </nav>
     <main>
       <article>
-        <h2>It's me, Mario</h2>
+        <h2>It's a me, Mario</h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae
           possimus sapiente, ducimus asperiores error eum ipsam quasi
@@ -45,10 +39,9 @@
           Repudiandae autem maxime magnam eveniet! Atque, suscipit amet.
         </p>
       </article>
-
       <ul class="images">
-        <li><img src="./img/thumb-1.png" alt="" /></li>
-        <li><img src="./img/thumb-2.png" alt="" /></li>
+        <li><img src="./img/thumb-1.png" alt="mario thumbnail 1" /></li>
+        <li><img src="./img/thumb-2.png" alt="mario thumbnail 2" /></li>
       </ul>
     </main>
     <section class="join">
@@ -57,7 +50,7 @@
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis
         dignissimos minus voluptatem.
       </p>
-      <form action="">
+      <form>
         <input
           type="email"
           name="email"
@@ -66,6 +59,8 @@
         />
       </form>
     </section>
-    <footer class="copyright"><p>Copyright 2019 Marioclub</p></footer>
+    <footer>
+      <p class="copyright">Copyright 2019 Marioclub</p>
+    </footer>
   </body>
 </html>
